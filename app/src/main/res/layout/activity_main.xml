@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.triodev.a24hoursapp.MainActivity"
+    android:background="@drawable/mainbackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/inputMail"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="200dp"
+            android:gravity="center" />
+
+
+        <EditText
+            android:id="@+id/inputPass"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center" />
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="129dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/loginButton"
+                style="@style/mainButton"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="145dp"
+                android:width="50dp"
+                android:text="@string/mainLogin"
+                android:textColor="#000000"
+                android:alpha="0.8"/>
+
+            <Button
+                android:id="@+id/logtoreg"
+                style="@style/mainButton"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/mainRegister"
+                android:textColor="#000000"
+                android:alpha="0.8"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

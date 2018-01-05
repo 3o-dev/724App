@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "890252807488",
+    "firebase_url": "https://hoursapp-e1f6c.firebaseio.com",
+    "project_id": "hoursapp-e1f6c",
+    "storage_bucket": "hoursapp-e1f6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890252807488:android:6a53fef0129b22c0",
+        "android_client_info": {
+          "package_name": "com.triodev.a24hoursapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890252807488-ul5jn7hcf5r7jcub8d07rnljtll0pitb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAyX9Bp9x_MNtQZOCIXqa4ZPdORWQQbEM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

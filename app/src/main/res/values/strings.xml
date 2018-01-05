@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">24HoursApp</string>
+    <string name="mainLogin">Giris Yap</string>
+    <string name="mainRegister">Üye Ol</string>
+    <string name="registerOK">Üye ol</string>
+    <string name="regtologin">Geri Dön</string>
+</resources>
